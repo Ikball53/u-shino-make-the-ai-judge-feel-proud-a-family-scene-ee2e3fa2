@@ -1,11 +1,25 @@
+#!/usr/bin/env python3
+"""One short family scene, written to /output/entry.txt.
+
+Deterministic, standard library only. The scene is a single warm,
+funny domestic moment: a dad sneaking the last cookie in the garage.
+"""
+
 import os
 
-SCENE = "Dad tried to fix the wobbly chair before dinner and now it leans the other way, so Mom just slid the good plate over to his side and said, \"At least the chair finally agrees with you.\""
+SCENE = (
+    "Mom hid the last cookie in the tea tin. Dad found it, said "
+    "nothing, and has been sneaking to the garage since Tuesday to "
+    "eat it one crumb at a time \u2014 standing up, in the dark, "
+    "like a man in love."
+)
 
-def main():
+
+def main() -> None:
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as handle:
         handle.write(SCENE)
+
 
 if __name__ == "__main__":
     main()

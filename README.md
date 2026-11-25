@@ -9,6 +9,6 @@ Entry for `u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2`.
 `main.py` (Python 3.13, stdlib only, deterministic) writes a single
 short family scene to `/output/entry.txt`.
 
-The scene: Dad tried to fix the wobbly chair before dinner and now it
-leans the other way, so Mom slid the good plate over to his side and
-said the chair finally agrees with him.
+The scene: Mom hid the last cookie in the tea tin, Dad found it and
+said nothing, and has been sneaking to the garage since Tuesday to eat
+it one crumb at a time — standing up, in the dark, like a man in love.
